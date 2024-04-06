@@ -41,9 +41,9 @@ public class BoxMovement {
         return coordinates;
     }
 
-    private class Coordiate {
-        private int number;
-        private int position;
+    private static class Coordiate {
+        private final int number;
+        private final int position;
         private boolean hasBall;
 
         @Override
