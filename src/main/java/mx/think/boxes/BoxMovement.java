@@ -62,10 +62,6 @@ public class BoxMovement {
                 this.hasBall = true;
         }
 
-        public int getNumber() {
-            return number;
-        }
-
         public int getPosition() {
             return position;
         }
