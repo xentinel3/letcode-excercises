@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="Small changes to Coordinate class">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/candyholder/GreatestCandyHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/candyholder/GreatestCandyHolderTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xentinel3&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xentinel3/letcode-excercises.git&quot;,
+    &quot;accountId&quot;: &quot;84602ee5-aa3d-4a74-982e-accab044a702&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ekHLpzLkWxsybmwnKtYolkk0CU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.BoxMovementTest.boxMovement.executor": "Run",
+    "JUnit.BoxMovementTest.executor": "Run",
+    "JUnit.GreatestCandyHolderTest.executor": "Run",
+    "JUnit.ZipStringTest.executor": "Run",
+    "JUnit.ZipStringTest.mergeAlternately.executor": "Run",
+    "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes.executor": "Debug",
+    "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes2.executor": "Run",
+    "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes3.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mx.think.candyholder" />
+      <recent name="mx.think.boxes" />
+      <recent name="mx.think.zip_strings" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GreatestCandyHolderTest.kidsWithCandies2">
+    <configuration name="BoxMovementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think.boxes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think.boxes" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.boxes.BoxMovementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoxMovementTest.boxMovementCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think.boxes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think.boxes" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.boxes.BoxMovementTest" />
+      <option name="METHOD_NAME" value="boxMovementCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreatestCandyHolderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think.candyholder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think.candyholder" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.candyholder.GreatestCandyHolderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreatestCandyHolderTest.kidsWithCandies2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think.candyholder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think.candyholder" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.candyholder.GreatestCandyHolderTest" />
+      <option name="METHOD_NAME" value="kidsWithCandies2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think.zip_strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think.zip_strings" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.zip_strings.ZipStringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GreatestCandyHolderTest.kidsWithCandies2" />
+        <item itemvalue="JUnit.GreatestCandyHolderTest" />
+        <item itemvalue="JUnit.BoxMovementTest" />
+        <item itemvalue="JUnit.BoxMovementTest.boxMovementCount" />
+        <item itemvalue="JUnit.ZipStringTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="" />
+      <created>1712441602899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712441602899</updated>
+      <workItem from="1712441604017" duration="5742000" />
+      <workItem from="1712586784114" duration="60000" />
+      <workItem from="1712586852388" duration="608000" />
+      <workItem from="1712587508574" duration="16000" />
+      <workItem from="1712587543729" duration="323000" />
+    </task>
+    <task id="LOCAL-00001" summary="To zip two strings">
+      <option name="closed" value="true" />
+      <created>1712443256830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712443256830</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Box movement">
+      <option name="closed" value="true" />
+      <created>1712447295742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712447295742</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Box movement">
+      <option name="closed" value="true" />
+      <created>1712447397130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712447397130</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Small changes to Coordinate class">
+      <option name="closed" value="true" />
+      <created>1712447447546</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712447447546</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="To zip two strings" />
+    <MESSAGE value="Box movement" />
+    <MESSAGE value="Small changes to Coordinate class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small changes to Coordinate class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/mx/think/zip_strings/ZipStringTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
