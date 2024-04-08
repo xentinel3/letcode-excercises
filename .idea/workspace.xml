@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="Small changes to Coordinate class">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/candyholder/GreatestCandyHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/candyholder/GreatestCandyHolderTest.java" afterDir="false" />
+    <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="will the boy be the max candy holder?">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/flowerbed/Flowerbed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/flowerbed/FlowerbedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,11 @@
   "keyToString": {
     "JUnit.BoxMovementTest.boxMovement.executor": "Run",
     "JUnit.BoxMovementTest.executor": "Run",
+    "JUnit.FlowerbedTest.canPlaceFlowers.executor": "Run",
+    "JUnit.FlowerbedTest.canPlaceFlowers3.executor": "Run",
+    "JUnit.FlowerbedTest.executor": "Run",
     "JUnit.GreatestCandyHolderTest.executor": "Run",
+    "JUnit.GreatestCandyHolderTest.kidsWithCandies2.executor": "Run",
     "JUnit.ZipStringTest.executor": "Run",
     "JUnit.ZipStringTest.mergeAlternately.executor": "Run",
     "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes.executor": "Debug",
@@ -82,38 +83,55 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mx.think.flowerbed" />
       <recent name="mx.think.candyholder" />
       <recent name="mx.think.boxes" />
       <recent name="mx.think.zip_strings" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreatestCandyHolderTest.kidsWithCandies2">
-    <configuration name="BoxMovementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FlowerbedTest.canPlaceFlowers3">
+    <configuration name="FlowerbedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think.boxes.*" />
+          <option name="PATTERN" value="mx.think.flowerbed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think.boxes" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.boxes.BoxMovementTest" />
+      <option name="PACKAGE_NAME" value="mx.think.flowerbed" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.flowerbed.FlowerbedTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxMovementTest.boxMovementCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlowerbedTest.canPlaceFlowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think.boxes.*" />
+          <option name="PATTERN" value="mx.think.flowerbed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think.boxes" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.boxes.BoxMovementTest" />
-      <option name="METHOD_NAME" value="boxMovementCount" />
+      <option name="PACKAGE_NAME" value="mx.think.flowerbed" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.flowerbed.FlowerbedTest" />
+      <option name="METHOD_NAME" value="canPlaceFlowers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowerbedTest.canPlaceFlowers3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think.flowerbed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think.flowerbed" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.flowerbed.FlowerbedTest" />
+      <option name="METHOD_NAME" value="canPlaceFlowers3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,28 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZipStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="letcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mx.think.zip_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mx.think.zip_strings" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.zip_strings.ZipStringTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlowerbedTest.canPlaceFlowers3" />
+        <item itemvalue="JUnit.FlowerbedTest" />
+        <item itemvalue="JUnit.FlowerbedTest.canPlaceFlowers" />
         <item itemvalue="JUnit.GreatestCandyHolderTest.kidsWithCandies2" />
         <item itemvalue="JUnit.GreatestCandyHolderTest" />
-        <item itemvalue="JUnit.BoxMovementTest" />
-        <item itemvalue="JUnit.BoxMovementTest.boxMovementCount" />
-        <item itemvalue="JUnit.ZipStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +198,8 @@
       <workItem from="1712586784114" duration="60000" />
       <workItem from="1712586852388" duration="608000" />
       <workItem from="1712587508574" duration="16000" />
-      <workItem from="1712587543729" duration="323000" />
+      <workItem from="1712587543729" duration="712000" />
+      <workItem from="1712588264515" duration="806000" />
     </task>
     <task id="LOCAL-00001" summary="To zip two strings">
       <option name="closed" value="true" />
@@ -229,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712447447546</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="will the boy be the max candy holder?">
+      <option name="closed" value="true" />
+      <created>1712588095486</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712588095486</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +251,8 @@
     <MESSAGE value="To zip two strings" />
     <MESSAGE value="Box movement" />
     <MESSAGE value="Small changes to Coordinate class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small changes to Coordinate class" />
+    <MESSAGE value="will the boy be the max candy holder?" />
+    <option name="LAST_COMMIT_MESSAGE" value="will the boy be the max candy holder?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
