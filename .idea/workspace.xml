@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="will the boy be the max candy holder?">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/flowerbed/Flowerbed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/flowerbed/FlowerbedTest.java" afterDir="false" />
+    <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="Flowerbed problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/reversevowels/ReverseVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/reversewords/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/reversevowels/ReverseVowelsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/reversewords/ReverseWordsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +60,9 @@
     "JUnit.FlowerbedTest.executor": "Run",
     "JUnit.GreatestCandyHolderTest.executor": "Run",
     "JUnit.GreatestCandyHolderTest.kidsWithCandies2.executor": "Run",
+    "JUnit.ReverseVowelsTest.executor": "Run",
+    "JUnit.ReverseVowelsTest.reverseVowels.executor": "Run",
+    "JUnit.ReverseWordsTest.reverseWords.executor": "Run",
     "JUnit.ZipStringTest.executor": "Run",
     "JUnit.ZipStringTest.mergeAlternately.executor": "Run",
     "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes.executor": "Debug",
@@ -69,12 +74,13 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "text | text ",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,13 +89,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mx.think.reversewords" />
+      <recent name="mx.think.reversevowels" />
       <recent name="mx.think.flowerbed" />
       <recent name="mx.think.candyholder" />
       <recent name="mx.think.boxes" />
-      <recent name="mx.think.zip_strings" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlowerbedTest.canPlaceFlowers3">
+  <component name="RunManager" selected="JUnit.ReverseWordsTest.reverseWords">
     <configuration name="FlowerbedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
@@ -101,22 +108,6 @@
       <option name="PACKAGE_NAME" value="mx.think.flowerbed" />
       <option name="MAIN_CLASS_NAME" value="mx.think.flowerbed.FlowerbedTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlowerbedTest.canPlaceFlowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="letcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mx.think.flowerbed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mx.think.flowerbed" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.flowerbed.FlowerbedTest" />
-      <option name="METHOD_NAME" value="canPlaceFlowers" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,32 +128,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreatestCandyHolderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseVowelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think.candyholder.*" />
+          <option name="PATTERN" value="mx.think.reversevowels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think.candyholder" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.candyholder.GreatestCandyHolderTest" />
+      <option name="PACKAGE_NAME" value="mx.think.reversevowels" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.reversevowels.ReverseVowelsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreatestCandyHolderTest.kidsWithCandies2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseVowelsTest.reverseVowels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think.candyholder.*" />
+          <option name="PATTERN" value="mx.think.reversevowels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think.candyholder" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.candyholder.GreatestCandyHolderTest" />
-      <option name="METHOD_NAME" value="kidsWithCandies2" />
+      <option name="PACKAGE_NAME" value="mx.think.reversevowels" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.reversevowels.ReverseVowelsTest" />
+      <option name="METHOD_NAME" value="reverseVowels" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWordsTest.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think.reversewords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think.reversewords" />
+      <option name="MAIN_CLASS_NAME" value="mx.think.reversewords.ReverseWordsTest" />
+      <option name="METHOD_NAME" value="reverseWords" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReverseWordsTest.reverseWords" />
+        <item itemvalue="JUnit.ReverseVowelsTest" />
+        <item itemvalue="JUnit.ReverseVowelsTest.reverseVowels" />
         <item itemvalue="JUnit.FlowerbedTest.canPlaceFlowers3" />
         <item itemvalue="JUnit.FlowerbedTest" />
-        <item itemvalue="JUnit.FlowerbedTest.canPlaceFlowers" />
-        <item itemvalue="JUnit.GreatestCandyHolderTest.kidsWithCandies2" />
-        <item itemvalue="JUnit.GreatestCandyHolderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +206,8 @@
       <workItem from="1712586852388" duration="608000" />
       <workItem from="1712587508574" duration="16000" />
       <workItem from="1712587543729" duration="712000" />
-      <workItem from="1712588264515" duration="806000" />
+      <workItem from="1712588264515" duration="1927000" />
+      <workItem from="1712674937761" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="To zip two strings">
       <option name="closed" value="true" />
@@ -241,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712588095486</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Flowerbed problem">
+      <option name="closed" value="true" />
+      <created>1712589087101</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712589087101</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +268,8 @@
     <MESSAGE value="Box movement" />
     <MESSAGE value="Small changes to Coordinate class" />
     <MESSAGE value="will the boy be the max candy holder?" />
-    <option name="LAST_COMMIT_MESSAGE" value="will the boy be the max candy holder?" />
+    <MESSAGE value="Flowerbed problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flowerbed problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
