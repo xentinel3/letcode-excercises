@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="Flowerbed problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/reversevowels/ReverseVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/reversewords/ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/reversevowels/ReverseVowelsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/reversewords/ReverseWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_334ingreasingtriplet/IncreasingTriplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_334ingreasingtriplet/description.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/_334ingreasingtriplet/IncreasingTripletTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -60,6 +61,12 @@
     "JUnit.FlowerbedTest.executor": "Run",
     "JUnit.GreatestCandyHolderTest.executor": "Run",
     "JUnit.GreatestCandyHolderTest.kidsWithCandies2.executor": "Run",
+    "JUnit.IncreasingTripletTest.decreasingTriplet.executor": "Debug",
+    "JUnit.IncreasingTripletTest.decreasingTriplet2.executor": "Run",
+    "JUnit.IncreasingTripletTest.decreasingTriplet3.executor": "Run",
+    "JUnit.IncreasingTripletTest.executor": "Run",
+    "JUnit.IncreasingTripletTest.increasingTriplet.executor": "Run",
+    "JUnit.IncreasingTripletTest.increasingTriplet2.executor": "Debug",
     "JUnit.ReverseVowelsTest.executor": "Run",
     "JUnit.ReverseVowelsTest.reverseVowels.executor": "Run",
     "JUnit.ReverseWordsTest.reverseWords.executor": "Run",
@@ -80,7 +87,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,87 +99,88 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mx.think._334ingreasingtriplet" />
       <recent name="mx.think.reversewords" />
       <recent name="mx.think.reversevowels" />
       <recent name="mx.think.flowerbed" />
       <recent name="mx.think.candyholder" />
-      <recent name="mx.think.boxes" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseWordsTest.reverseWords">
-    <configuration name="FlowerbedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IncreasingTripletTest.decreasingTriplet3">
+    <configuration name="IncreasingTripletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think.flowerbed.*" />
+          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think.flowerbed" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.flowerbed.FlowerbedTest" />
+      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowerbedTest.canPlaceFlowers3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IncreasingTripletTest.decreasingTriplet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think.flowerbed.*" />
+          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think.flowerbed" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.flowerbed.FlowerbedTest" />
-      <option name="METHOD_NAME" value="canPlaceFlowers3" />
+      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
+      <option name="METHOD_NAME" value="decreasingTriplet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IncreasingTripletTest.decreasingTriplet2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think.reversevowels.*" />
+          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think.reversevowels" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.reversevowels.ReverseVowelsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseVowelsTest.reverseVowels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="letcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mx.think.reversevowels.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mx.think.reversevowels" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.reversevowels.ReverseVowelsTest" />
-      <option name="METHOD_NAME" value="reverseVowels" />
+      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
+      <option name="METHOD_NAME" value="decreasingTriplet2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsTest.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IncreasingTripletTest.decreasingTriplet3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think.reversewords.*" />
+          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think.reversewords" />
-      <option name="MAIN_CLASS_NAME" value="mx.think.reversewords.ReverseWordsTest" />
-      <option name="METHOD_NAME" value="reverseWords" />
+      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
+      <option name="METHOD_NAME" value="decreasingTriplet3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncreasingTripletTest.increasingTriplet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
+      <option name="METHOD_NAME" value="increasingTriplet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseWordsTest.reverseWords" />
-        <item itemvalue="JUnit.ReverseVowelsTest" />
-        <item itemvalue="JUnit.ReverseVowelsTest.reverseVowels" />
-        <item itemvalue="JUnit.FlowerbedTest.canPlaceFlowers3" />
-        <item itemvalue="JUnit.FlowerbedTest" />
+        <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet3" />
+        <item itemvalue="JUnit.IncreasingTripletTest" />
+        <item itemvalue="JUnit.IncreasingTripletTest.increasingTriplet" />
+        <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet2" />
+        <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +219,9 @@
       <workItem from="1712587543729" duration="712000" />
       <workItem from="1712588264515" duration="1927000" />
       <workItem from="1712674937761" duration="1467000" />
+      <workItem from="1714614800620" duration="153000" />
+      <workItem from="1714614958112" duration="415000" />
+      <workItem from="1714615381328" duration="8561000" />
     </task>
     <task id="LOCAL-00001" summary="To zip two strings">
       <option name="closed" value="true" />
@@ -279,7 +293,16 @@
           <line>43</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/mx/think/_334ingreasingtriplet/IncreasingTripletTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
