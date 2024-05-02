@@ -106,7 +106,7 @@
       <recent name="mx.think.candyholder" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IncreasingTripletTest.decreasingTriplet3">
+  <component name="RunManager" selected="JUnit.IncreasingTripletTest">
     <configuration name="IncreasingTripletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
@@ -188,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet3" />
         <item itemvalue="JUnit.IncreasingTripletTest" />
+        <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet3" />
         <item itemvalue="JUnit.IncreasingTripletTest.increasingTriplet" />
         <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet2" />
         <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet" />
