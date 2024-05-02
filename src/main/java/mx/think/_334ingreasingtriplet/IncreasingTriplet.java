@@ -1,8 +1,5 @@
 package mx.think._334ingreasingtriplet;
 
-import java.util.Arrays;
-import java.util.HashMap;
-
 public class IncreasingTriplet {
     public boolean increasingTriplet(int[] nums) {
         int a = Integer.MAX_VALUE;
