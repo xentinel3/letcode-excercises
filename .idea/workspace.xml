@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="Flowerbed problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_334ingreasingtriplet/IncreasingTriplet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_334ingreasingtriplet/description.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/_334ingreasingtriplet/IncreasingTripletTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="most efficient solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_443stringcompression/StringCompresor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_443stringcompression/description.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/_443stringcompression/StringCompresorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +69,9 @@
     "JUnit.ReverseVowelsTest.executor": "Run",
     "JUnit.ReverseVowelsTest.reverseVowels.executor": "Run",
     "JUnit.ReverseWordsTest.reverseWords.executor": "Run",
+    "JUnit.StringCompresorTest.compressMultipleChars.executor": "Run",
+    "JUnit.StringCompresorTest.compressMultipleChars2.executor": "Run",
+    "JUnit.StringCompresorTest.executor": "Run",
     "JUnit.ZipStringTest.executor": "Run",
     "JUnit.ZipStringTest.mergeAlternately.executor": "Run",
     "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes.executor": "Debug",
@@ -99,14 +101,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mx.think._443stringcompression" />
       <recent name="mx.think._334ingreasingtriplet" />
       <recent name="mx.think.reversewords" />
       <recent name="mx.think.reversevowels" />
       <recent name="mx.think.flowerbed" />
-      <recent name="mx.think.candyholder" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IncreasingTripletTest">
+  <component name="RunManager" selected="JUnit.StringCompresorTest.compressMultipleChars2">
     <configuration name="IncreasingTripletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
@@ -118,38 +120,6 @@
       <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
       <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncreasingTripletTest.decreasingTriplet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="letcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
-      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
-      <option name="METHOD_NAME" value="decreasingTriplet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncreasingTripletTest.decreasingTriplet2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="letcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
-      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
-      <option name="METHOD_NAME" value="decreasingTriplet2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,17 +140,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncreasingTripletTest.increasingTriplet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCompresorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
+          <option name="PATTERN" value="mx.think._443stringcompression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
-      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
-      <option name="METHOD_NAME" value="increasingTriplet" />
+      <option name="PACKAGE_NAME" value="mx.think._443stringcompression" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._443stringcompression.StringCompresorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompresorTest.compressMultipleChars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think._443stringcompression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think._443stringcompression" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._443stringcompression.StringCompresorTest" />
+      <option name="METHOD_NAME" value="compressMultipleChars" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompresorTest.compressMultipleChars2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="letcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.think._443stringcompression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.think._443stringcompression" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._443stringcompression.StringCompresorTest" />
+      <option name="METHOD_NAME" value="compressMultipleChars2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCompresorTest.compressMultipleChars2" />
+        <item itemvalue="JUnit.StringCompresorTest.compressMultipleChars" />
+        <item itemvalue="JUnit.StringCompresorTest" />
         <item itemvalue="JUnit.IncreasingTripletTest" />
         <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet3" />
-        <item itemvalue="JUnit.IncreasingTripletTest.increasingTriplet" />
-        <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet2" />
-        <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +222,7 @@
       <workItem from="1712674937761" duration="1467000" />
       <workItem from="1714614800620" duration="153000" />
       <workItem from="1714614958112" duration="415000" />
-      <workItem from="1714615381328" duration="8561000" />
+      <workItem from="1714615381328" duration="13574000" />
     </task>
     <task id="LOCAL-00001" summary="To zip two strings">
       <option name="closed" value="true" />
@@ -271,7 +272,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712589087101</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial solution">
+      <option name="closed" value="true" />
+      <created>1714657414347</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714657414347</updated>
+    </task>
+    <task id="LOCAL-00008" summary="most efficient solution">
+      <option name="closed" value="true" />
+      <created>1714657481142</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714657481142</updated>
+    </task>
+    <task id="LOCAL-00009" summary="most efficient solution">
+      <option name="closed" value="true" />
+      <created>1714657517371</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714657517371</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +308,9 @@
     <MESSAGE value="Small changes to Coordinate class" />
     <MESSAGE value="will the boy be the max candy holder?" />
     <MESSAGE value="Flowerbed problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flowerbed problem" />
+    <MESSAGE value="initial solution" />
+    <MESSAGE value="most efficient solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="most efficient solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,6 +324,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/mx/think/_334ingreasingtriplet/IncreasingTripletTest.java</url>
           <line>22</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/think/_443stringcompression/StringCompresor.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
