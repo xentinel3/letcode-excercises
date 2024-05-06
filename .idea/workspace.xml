@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb666947-e4c7-4109-8d41-2fcbb113f7c7" name="Changes" comment="most efficient solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_443stringcompression/StringCompresor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_443stringcompression/description.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/_443stringcompression/StringCompresorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_283movezeroes/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/think/_283movezeroes/description.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mx/think/_283movezeroes/MoveZeroesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,90 +52,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.BoxMovementTest.boxMovement.executor": "Run",
-    "JUnit.BoxMovementTest.executor": "Run",
-    "JUnit.FlowerbedTest.canPlaceFlowers.executor": "Run",
-    "JUnit.FlowerbedTest.canPlaceFlowers3.executor": "Run",
-    "JUnit.FlowerbedTest.executor": "Run",
-    "JUnit.GreatestCandyHolderTest.executor": "Run",
-    "JUnit.GreatestCandyHolderTest.kidsWithCandies2.executor": "Run",
-    "JUnit.IncreasingTripletTest.decreasingTriplet.executor": "Debug",
-    "JUnit.IncreasingTripletTest.decreasingTriplet2.executor": "Run",
-    "JUnit.IncreasingTripletTest.decreasingTriplet3.executor": "Run",
-    "JUnit.IncreasingTripletTest.executor": "Run",
-    "JUnit.IncreasingTripletTest.increasingTriplet.executor": "Run",
-    "JUnit.IncreasingTripletTest.increasingTriplet2.executor": "Debug",
-    "JUnit.ReverseVowelsTest.executor": "Run",
-    "JUnit.ReverseVowelsTest.reverseVowels.executor": "Run",
-    "JUnit.ReverseWordsTest.reverseWords.executor": "Run",
-    "JUnit.StringCompresorTest.compressMultipleChars.executor": "Run",
-    "JUnit.StringCompresorTest.compressMultipleChars2.executor": "Run",
-    "JUnit.StringCompresorTest.executor": "Run",
-    "JUnit.ZipStringTest.executor": "Run",
-    "JUnit.ZipStringTest.mergeAlternately.executor": "Run",
-    "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes.executor": "Debug",
-    "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes2.executor": "Run",
-    "JUnit.ZipStringTest.mergeAlternatelyUnevenSizes3.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last.edited.regexp": "text | text ",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.BoxMovementTest.boxMovement.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoxMovementTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FlowerbedTest.canPlaceFlowers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FlowerbedTest.canPlaceFlowers3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FlowerbedTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GreatestCandyHolderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GreatestCandyHolderTest.kidsWithCandies2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IncreasingTripletTest.decreasingTriplet.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.IncreasingTripletTest.decreasingTriplet2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IncreasingTripletTest.decreasingTriplet3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IncreasingTripletTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IncreasingTripletTest.increasingTriplet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IncreasingTripletTest.increasingTriplet2.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MoveZeroesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoveZeroesTest.moveZeroes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReverseVowelsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReverseVowelsTest.reverseVowels.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReverseWordsTest.reverseWords.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringCompresorTest.compressMultipleChars.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringCompresorTest.compressMultipleChars2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringCompresorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZipStringTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZipStringTest.mergeAlternately.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZipStringTest.mergeAlternatelyUnevenSizes.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ZipStringTest.mergeAlternatelyUnevenSizes2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZipStringTest.mergeAlternatelyUnevenSizes3.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;text | text &quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mx.think._283movezeroes" />
       <recent name="mx.think._443stringcompression" />
       <recent name="mx.think._334ingreasingtriplet" />
       <recent name="mx.think.reversewords" />
       <recent name="mx.think.reversevowels" />
-      <recent name="mx.think.flowerbed" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCompresorTest.compressMultipleChars2">
-    <configuration name="IncreasingTripletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoveZeroesTest.moveZeroes">
+    <configuration name="MoveZeroesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
+          <option name="PATTERN" value="mx.think._283movezeroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
-      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
+      <option name="PACKAGE_NAME" value="mx.think._283movezeroes" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._283movezeroes.MoveZeroesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncreasingTripletTest.decreasingTriplet3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoveZeroesTest.moveZeroes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.think._334ingreasingtriplet.*" />
+          <option name="PATTERN" value="mx.think._283movezeroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mx.think._334ingreasingtriplet" />
-      <option name="MAIN_CLASS_NAME" value="mx.think._334ingreasingtriplet.IncreasingTripletTest" />
-      <option name="METHOD_NAME" value="decreasingTriplet3" />
+      <option name="PACKAGE_NAME" value="mx.think._283movezeroes" />
+      <option name="MAIN_CLASS_NAME" value="mx.think._283movezeroes.MoveZeroesTest" />
+      <option name="METHOD_NAME" value="moveZeroes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,19 +192,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveZeroesTest.moveZeroes" />
+        <item itemvalue="JUnit.MoveZeroesTest" />
         <item itemvalue="JUnit.StringCompresorTest.compressMultipleChars2" />
         <item itemvalue="JUnit.StringCompresorTest.compressMultipleChars" />
         <item itemvalue="JUnit.StringCompresorTest" />
-        <item itemvalue="JUnit.IncreasingTripletTest" />
-        <item itemvalue="JUnit.IncreasingTripletTest.decreasingTriplet3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -223,6 +226,7 @@
       <workItem from="1714614800620" duration="153000" />
       <workItem from="1714614958112" duration="415000" />
       <workItem from="1714615381328" duration="13574000" />
+      <workItem from="1715008758036" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="To zip two strings">
       <option name="closed" value="true" />
@@ -329,6 +333,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/mx/think/_443stringcompression/StringCompresor.java</url>
           <line>23</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/think/_283movezeroes/MoveZeroes.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
